@@ -37,7 +37,7 @@ function App() {
           object={{
             name: 'Jesus',
             lastName: 'Bermudez',
-            email: 'jbermudezamora@gmail.com',
+            email: 'jbermudezamora87@gmail.com',
             edad: 21,
           }}
           func = {num => num * num}
