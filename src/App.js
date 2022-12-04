@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Componente from './components/componente';
 import Properties from './components/properties';
+import State from './components/state';
 
 
 function App() {
@@ -43,9 +44,10 @@ function App() {
           func = {num => num * num}
           reactElement = {<i>This is a React Element</i>}
           reactComponent = {<Componente
-            msg = 'i`m a component sent by via props'
-          />}
+            msg = 'i`m a component sent by via props'/>}
           />
+          <hr/>
+          <State/>
         </section>
       </header>
     </div>
