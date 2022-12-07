@@ -7,6 +7,7 @@ import ConditionalRendering from './components/conditionalRendering';
 import ElementRender from './components/elementRender';
 import {EventsES6} from "./components/EventsES6";
 import { EventsES7 } from './components/EventsES7';
+import { Events2 } from './components/Events2';
 
 
 function App() {
@@ -60,6 +61,8 @@ function App() {
           <EventsES6/>
           <hr/>
           <EventsES7/>
+          <hr/>
+          <Events2/>
         </section>
       </header>
     </div>
