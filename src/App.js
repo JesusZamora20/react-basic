@@ -5,7 +5,8 @@ import Properties from './components/properties';
 import State from './components/state';
 import ConditionalRendering from './components/conditionalRendering';
 import ElementRender from './components/elementRender';
-import Events from './components/Events';
+import {EventsES6} from "./components/EventsES6";
+import { EventsES7 } from './components/EventsES7';
 
 
 function App() {
@@ -56,7 +57,9 @@ function App() {
           <hr/>
           <ElementRender />
           <hr/>
-          <Events/>
+          <EventsES6/>
+          <hr/>
+          <EventsES7/>
         </section>
       </header>
     </div>
