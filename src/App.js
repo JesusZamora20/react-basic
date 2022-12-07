@@ -5,6 +5,7 @@ import Properties from './components/properties';
 import State from './components/state';
 import ConditionalRendering from './components/conditionalRendering';
 import ElementRender from './components/elementRender';
+import Events from './components/Events';
 
 
 function App() {
@@ -54,6 +55,8 @@ function App() {
           <ConditionalRendering />
           <hr/>
           <ElementRender />
+          <hr/>
+          <Events/>
         </section>
       </header>
     </div>
