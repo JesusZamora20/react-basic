@@ -3,6 +3,7 @@ import './App.css';
 import Componente from './components/componente';
 import Properties from './components/properties';
 import State from './components/state';
+import ConditionalRendering from './components/conditionalRendering';
 
 
 function App() {
@@ -48,6 +49,8 @@ function App() {
           />
           <hr/>
           <State/>
+          <hr/>
+          <ConditionalRendering />
         </section>
       </header>
     </div>
