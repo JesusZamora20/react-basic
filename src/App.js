@@ -8,6 +8,7 @@ import ElementRender from './components/elementRender';
 import {EventsES6} from "./components/EventsES6";
 import { EventsES7 } from './components/EventsES7';
 import { Events2 } from './components/Events2';
+import Father from './components/compComunication'
 
 
 function App() {
@@ -63,6 +64,8 @@ function App() {
           <EventsES7/>
           <hr/>
           <Events2/>
+          <hr/>
+          <Father/>
         </section>
       </header>
     </div>
