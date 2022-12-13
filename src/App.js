@@ -10,6 +10,7 @@ import { EventsES7 } from './components/EventsES7';
 import { Events2 } from './components/Events2';
 import Father from './components/compComunication';
 import ComponentLifeCycle from './components/componentLifeCycle';
+import AjaxApis from './components/Ajax';
 
 
 function App() {
@@ -69,6 +70,8 @@ function App() {
           <Father/>
           <hr/>
           <ComponentLifeCycle />
+          <hr />
+          <AjaxApis />
         </section>
       </header>
     </div>
