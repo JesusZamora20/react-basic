@@ -19,7 +19,7 @@ class AjaxApis extends React.Component{
         fetch(url)
             .then(res => res.json())
             .then(json => {
-                // console.log(json);
+                let pokemons = [];
                 json.results.forEach(el => {
                     fetch(el.url)
                         .then(res => res.json())
@@ -31,7 +31,7 @@ class AjaxApis extends React.Component{
                                 avatar: json.sprites.front_default,
                             };
 
-                            let pokemons = [...this.state.pokemons, pokemon];
+                            pokemons = [...pokemons, pokemon];
                             this.setState({pokemons});
                         })
                 });
