@@ -11,6 +11,7 @@ import { Events2 } from './components/Events2';
 import Father from './components/compComunication';
 import ComponentLifeCycle from './components/componentLifeCycle';
 import AjaxApis from './components/Ajax';
+import CounterHooks from './Hooks/counter';
 
 
 function App() {
@@ -72,6 +73,9 @@ function App() {
           <ComponentLifeCycle />
           <hr />
           <AjaxApis />
+          <hr/>
+          <h3>Working with Hooks</h3>
+          <CounterHooks />
         </section>
       </header>
     </div>
