@@ -12,7 +12,7 @@ import Father from './components/compComunication';
 import ComponentLifeCycle from './components/componentLifeCycle';
 import AjaxApis from './components/Ajax';
 import CounterHooks from './Hooks/counter';
-
+import Scroll from './Hooks/scroll';
 
 function App() {
   let miNombre = "Jesus";
@@ -76,6 +76,8 @@ function App() {
           <hr/>
           <h3>Working with Hooks</h3>
           <CounterHooks />
+          <hr/>
+          <Scroll />
         </section>
       </header>
     </div>
