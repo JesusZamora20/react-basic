@@ -13,6 +13,7 @@ import ComponentLifeCycle from './components/componentLifeCycle';
 import AjaxApis from './components/Ajax';
 import CounterHooks from './Hooks/counter';
 import Scroll from './Hooks/scroll';
+import Clock from './Hooks/clock';
 
 function App() {
   let miNombre = "Jesus";
@@ -78,6 +79,8 @@ function App() {
           <CounterHooks />
           <hr/>
           <Scroll />
+          <hr/>
+          <Clock />
         </section>
       </header>
     </div>
