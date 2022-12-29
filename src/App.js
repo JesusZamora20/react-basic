@@ -15,6 +15,7 @@ import CounterHooks from './Hooks/counter';
 import Scroll from './Hooks/scroll';
 import Clock from './Hooks/clock';
 import AjaxHook from './Hooks/ajaxHook';
+import CustomHook from './Hooks/customHook';
 
 function App() {
   let miNombre = "Jesus";
@@ -84,6 +85,8 @@ function App() {
           <Clock />
           <hr/>
           <AjaxHook />
+          <hr />
+          <CustomHook />
         </section>
       </header>
     </div>
