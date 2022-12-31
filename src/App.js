@@ -16,6 +16,7 @@ import Scroll from './Hooks/scroll';
 import Clock from './Hooks/clock';
 import AjaxHook from './Hooks/ajaxHook';
 import CustomHook from './Hooks/customHook';
+import References from './Hooks/references';
 
 function App() {
   let miNombre = "Jesus";
@@ -87,7 +88,9 @@ function App() {
           <AjaxHook />
           <hr />
           <CustomHook />
-        </section>
+          <hr />
+          <References/>        
+          </section>
       </header>
     </div>
   );
