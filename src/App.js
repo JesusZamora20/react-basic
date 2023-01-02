@@ -17,6 +17,8 @@ import Clock from './Hooks/clock';
 import AjaxHook from './Hooks/ajaxHook';
 import CustomHook from './Hooks/customHook';
 import References from './Hooks/references';
+import Forms from './Hooks/forms';
+import FormOptimized from './Hooks/formOptimized';
 
 function App() {
   let miNombre = "Jesus";
@@ -89,7 +91,20 @@ function App() {
           <hr />
           <CustomHook />
           <hr />
-          <References/>        
+          <References/>   
+          <hr />
+          <Forms />
+          <hr />
+          <FormOptimized />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
           </section>
       </header>
     </div>
