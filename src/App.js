@@ -20,6 +20,7 @@ import References from './Hooks/references';
 import Forms from './Hooks/forms';
 import FormOptimized from './Hooks/formOptimized';
 import Styles from './components/styles';
+import StyledComponents from './components/styledComponents';
 
 function App() {
   let miNombre = "Jesus";
@@ -99,6 +100,8 @@ function App() {
           <FormOptimized />
           <hr />
           <Styles />
+          <hr />
+          <StyledComponents />
           <br />
           <br />
           <br />
